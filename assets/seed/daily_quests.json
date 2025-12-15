@@ -1,0 +1,25 @@
+[
+  {
+    "date": "2024-09-01",
+    "tasks": [
+      {
+        "id": "math-001",
+        "question": "What is 9 x 7?",
+        "options": ["54", "56", "63", "72"],
+        "correctIndex": 2,
+        "explanation": "9 multiplied by 7 equals 63.",
+        "points": 15,
+        "gradeRange": [5, 11]
+      },
+      {
+        "id": "history-001",
+        "question": "Who was the first president of the United States?",
+        "options": ["Abraham Lincoln", "George Washington", "John Adams", "Thomas Jefferson"],
+        "correctIndex": 1,
+        "explanation": "George Washington served as the first U.S. president.",
+        "points": 10,
+        "gradeRange": [6, 11]
+      }
+    ]
+  }
+]
