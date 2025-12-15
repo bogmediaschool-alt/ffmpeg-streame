@@ -1,0 +1,32 @@
+name: daily_quest
+version: 0.1.0
+publish_to: "none"
+description: MVP mobile app "Daily Quest" built with Flutter, Riverpod, and Firebase.
+homepage: https://example.com
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.1
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  dio: ^5.5.0+1
+  shared_preferences: ^2.2.3
+  flutter_dotenv: ^5.1.0
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/seed/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
